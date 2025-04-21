@@ -13,7 +13,7 @@ $this->title = 'Геномед';
 
         <?php $form = ActiveForm::begin(['id' => 'href-form']); ?>
 
-            <?= $form->field($model, 'href_long')->textInput(['id' => 'href_long',  'value' => 'https://ixbt.games/news/2025/04/19/servery-dune-awakening-ogranicat-40-igrokami.html']) ?>
+            <?= $form->field($model, 'href_long')->textInput(['id' => 'href_long']) ?>
 
             <p>
                 <div id="errors"></div>
